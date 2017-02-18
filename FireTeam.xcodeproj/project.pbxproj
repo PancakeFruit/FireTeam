@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		831C8C371E27588700F94E71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C8C361E27588700F94E71 /* main.m */; };
 		831C8C3A1E27588700F94E71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C8C391E27588700F94E71 /* AppDelegate.m */; };
-		831C8C3D1E27588700F94E71 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C8C3C1E27588700F94E71 /* ViewController.m */; };
 		831C8C401E27588700F94E71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831C8C3E1E27588700F94E71 /* Main.storyboard */; };
 		831C8C421E27588700F94E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831C8C411E27588700F94E71 /* Assets.xcassets */; };
 		831C8C451E27588700F94E71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831C8C431E27588700F94E71 /* LaunchScreen.storyboard */; };
 		831C8C501E27588700F94E71 /* FireTeamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 831C8C4F1E27588700F94E71 /* FireTeamTests.m */; };
+		83844AD01E58251800BDC3B2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 83844ACF1E58251800BDC3B2 /* README.md */; };
+		83844AD91E58268F00BDC3B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83844AD81E58268F00BDC3B2 /* ViewController.m */; };
 		93216296FAB37F2AE1B3233C /* libPods-FireTeamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5CD6DFC38FD46E08F02BCD0 /* libPods-FireTeamTests.a */; };
 		BD56C56AC8A2705FB0631DB7 /* libPods-FireTeam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3120BC122F48A8E32D2AF2 /* libPods-FireTeam.a */; };
 /* End PBXBuildFile section */
@@ -37,8 +38,6 @@
 		831C8C361E27588700F94E71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		831C8C381E27588700F94E71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		831C8C391E27588700F94E71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		831C8C3B1E27588700F94E71 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		831C8C3C1E27588700F94E71 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		831C8C3F1E27588700F94E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		831C8C411E27588700F94E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		831C8C441E27588700F94E71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +45,9 @@
 		831C8C4B1E27588700F94E71 /* FireTeamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FireTeamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831C8C4F1E27588700F94E71 /* FireTeamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireTeamTests.m; sourceTree = "<group>"; };
 		831C8C511E27588700F94E71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83844ACF1E58251800BDC3B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		83844AD71E58268F00BDC3B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83844AD81E58268F00BDC3B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88E07941159FFB761B99C8E7 /* Pods-FireTeamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireTeamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireTeamTests/Pods-FireTeamTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C5CD6DFC38FD46E08F02BCD0 /* libPods-FireTeamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FireTeamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,6 +84,7 @@
 		831C8C291E27588700F94E71 = {
 			isa = PBXGroup;
 			children = (
+				83844ACF1E58251800BDC3B2 /* README.md */,
 				831C8C341E27588700F94E71 /* FireTeam */,
 				831C8C4E1E27588700F94E71 /* FireTeamTests */,
 				831C8C331E27588700F94E71 /* Products */,
@@ -102,14 +105,13 @@
 		831C8C341E27588700F94E71 /* FireTeam */ = {
 			isa = PBXGroup;
 			children = (
-				831C8C381E27588700F94E71 /* AppDelegate.h */,
-				831C8C391E27588700F94E71 /* AppDelegate.m */,
-				831C8C3B1E27588700F94E71 /* ViewController.h */,
-				831C8C3C1E27588700F94E71 /* ViewController.m */,
-				831C8C3E1E27588700F94E71 /* Main.storyboard */,
 				831C8C411E27588700F94E71 /* Assets.xcassets */,
-				831C8C431E27588700F94E71 /* LaunchScreen.storyboard */,
-				831C8C461E27588700F94E71 /* Info.plist */,
+				83844ACC1E5824F200BDC3B2 /* FutureController */,
+				83844ACA1E5824F200BDC3B2 /* CustomKit */,
+				83844ACB1E5824F200BDC3B2 /* DataBase */,
+				83844AD11E5825CF00BDC3B2 /* Libraries */,
+				83844ACD1E5824F200BDC3B2 /* Global */,
+				83844ACE1E5824F200BDC3B2 /* Tool */,
 				831C8C351E27588700F94E71 /* Supporting Files */,
 			);
 			path = FireTeam;
@@ -118,6 +120,11 @@
 		831C8C351E27588700F94E71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				831C8C3E1E27588700F94E71 /* Main.storyboard */,
+				831C8C431E27588700F94E71 /* LaunchScreen.storyboard */,
+				831C8C381E27588700F94E71 /* AppDelegate.h */,
+				831C8C391E27588700F94E71 /* AppDelegate.m */,
+				831C8C461E27588700F94E71 /* Info.plist */,
 				831C8C361E27588700F94E71 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -130,6 +137,90 @@
 				831C8C511E27588700F94E71 /* Info.plist */,
 			);
 			path = FireTeamTests;
+			sourceTree = "<group>";
+		};
+		83844ACA1E5824F200BDC3B2 /* CustomKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomKit;
+			sourceTree = "<group>";
+		};
+		83844ACB1E5824F200BDC3B2 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		83844ACC1E5824F200BDC3B2 /* FutureController */ = {
+			isa = PBXGroup;
+			children = (
+				83844AD21E58268F00BDC3B2 /* Common */,
+				83844AD31E58268F00BDC3B2 /* FuturePage */,
+			);
+			path = FutureController;
+			sourceTree = "<group>";
+		};
+		83844ACD1E5824F200BDC3B2 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		83844ACE1E5824F200BDC3B2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		83844AD11E5825CF00BDC3B2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		83844AD21E58268F00BDC3B2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		83844AD31E58268F00BDC3B2 /* FuturePage */ = {
+			isa = PBXGroup;
+			children = (
+				83844AD41E58268F00BDC3B2 /* ExampleController */,
+			);
+			path = FuturePage;
+			sourceTree = "<group>";
+		};
+		83844AD41E58268F00BDC3B2 /* ExampleController */ = {
+			isa = PBXGroup;
+			children = (
+				83844AD51E58268F00BDC3B2 /* Model */,
+				83844AD61E58268F00BDC3B2 /* View */,
+				83844AD71E58268F00BDC3B2 /* ViewController.h */,
+				83844AD81E58268F00BDC3B2 /* ViewController.m */,
+			);
+			path = ExampleController;
+			sourceTree = "<group>";
+		};
+		83844AD51E58268F00BDC3B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83844AD61E58268F00BDC3B2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		91AE4FDE01DB8722BD5679A8 /* Pods */ = {
@@ -344,9 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				831C8C3D1E27588700F94E71 /* ViewController.m in Sources */,
 				831C8C3A1E27588700F94E71 /* AppDelegate.m in Sources */,
+				83844AD01E58251800BDC3B2 /* README.md in Sources */,
 				831C8C371E27588700F94E71 /* main.m in Sources */,
+				83844AD91E58268F00BDC3B2 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -547,6 +639,7 @@
 				831C8C561E27588700F94E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831C8C571E27588700F94E71 /* Build configuration list for PBXNativeTarget "FireTeamTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +648,7 @@
 				831C8C591E27588700F94E71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
