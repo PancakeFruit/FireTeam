@@ -2,11 +2,9 @@
 # platform :ios, '9.0'
 
 target 'FireTeam' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-  
-  pod 'AFNetworking', '3.1.0'
-  # Pods for FireTeam
+
+  pod 'AFNetworking', '3.1.0' # 网络请求
+  pod 'Realm', '2.4.2' # 数据库
 
   target 'FireTeamTests' do
     inherit! :search_paths
